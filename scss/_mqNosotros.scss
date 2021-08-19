@@ -1,0 +1,234 @@
+// Variables
+$fondoBody: #232931;
+$colorTitulos: #E79E4F;
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: $fondoBody;
+}
+
+/* Telefonos */
+
+@media (max-width: 425px) {
+    .sobreNos__titulo {
+        color: $colorTitulos;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imagen__nosotros {
+        border-radius: 15px;
+        padding: 9px;
+    }
+
+    .sobreNos__texto {
+        color: white;
+        text-align: justify;
+        font-size: 18px;
+        text-shadow: 1px 1px 1px 1px black;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        padding-top: 55px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "pie1 pie2";
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: stretch;
+        background-color: #0f161b;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: $colorTitulos;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    div#redes1 {
+        grid-area: "pie1";
+    }
+
+    div#redes2 {
+        grid-area: "pie2";
+    }
+
+    .footer__sucursales {
+        color: white;
+    }
+
+    .footer__redes {
+        color: white;
+    }
+}
+
+
+/* Tablet */
+
+
+@media (max-width: 1024px) and (min-width: 426px) {
+    .sobreNos__titulo {
+        color: $colorTitulos;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imagen__nosotros {
+        padding: 20px;
+        border-radius: 50px;
+    }
+
+    .sobreNos__texto {
+        color: white;
+        text-align: justify;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px 1px black;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        padding-top: 55px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "pie1 pie2";
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: stretch;
+        background-color: #0f161b;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: $colorTitulos;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    div#redes1 {
+        grid-area: "pie1";
+    }
+
+    div#redes2 {
+        grid-area: "pie2";
+    }
+
+    .footer__sucursales {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer__redes {
+        color: white;
+        font-size: 30px;
+    }
+
+    .socialMedia, .ubicacionSucursales{
+        font-size: 20px;
+    }
+}
+
+/* Computadoras */
+
+@media (min-width: 1025px) {
+    .sobreNos__titulo {
+        color: $colorTitulos;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sobreNos__contenido{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        text-align: justify;
+        font-size: 30px;
+        padding: 60px;
+    }
+
+    .imagen__nosotros{
+        height: 750px;
+        width: 750px;
+        border-radius: 30px;
+    }
+
+    .sobreNos__texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 1px 5px black;
+    }
+
+    footer {
+        padding-top: 55px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "pie1 pie2";
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: stretch;
+        background-color: #0f161b;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: $colorTitulos;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    div#redes1 {
+        grid-area: "pie1";
+    }
+
+    div#redes2 {
+        grid-area: "pie2";
+    }
+
+    .footer__sucursales {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer__redes {
+        color: white;
+        font-size: 30px;
+    }
+
+    .socialMedia, .ubicacionSucursales{
+        font-size: 20px;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10px;
+        background: rgb(18,29,57);
+        background: linear-gradient(180deg, rgba(18,29,57,1) 34%, rgba(12,37,84,1) 84%);
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: #393E46;
+        border-radius: 5px;
+    }
+}

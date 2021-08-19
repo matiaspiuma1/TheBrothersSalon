@@ -57,7 +57,7 @@ body {
     text-decoration: underline;
     padding: 10px; }
   .seccionL__pri {
-    background-image: url(/imagenes/bar2.jpg);
+    background-image: url(../imagenes/bar2.jpg);
     background-position: 1% 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body {
     border-radius: 30px;
     font-size: 18px; }
   .seccionL__seg {
-    background-image: url(/imagenes/nosotros.jpg);
+    background-image: url(../imagenes/nosotros.jpg);
     background-position: 1% 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body {
     border-radius: 30px;
     font-size: 18px; }
   .seccionL__ter {
-    background-image: url(/imagenes/contacto3.jpg);
+    background-image: url(../imagenes/contacto3.jpg);
     background-position: 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ body {
     padding: 10px;
     text-decoration: underline; }
   .seccionL__pri {
-    background-image: url(/imagenes/bar2.jpg);
+    background-image: url(../imagenes/bar2.jpg);
     background-position: 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body {
     font-size: 18px;
     box-shadow: 5px 3px 10px black; }
   .seccionL__seg {
-    background-image: url(/imagenes/nosotros.jpg);
+    background-image: url(../imagenes/nosotros.jpg);
     background-position: 35%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ body {
     font-size: 18px;
     box-shadow: 5px 3px 10px black; }
   .seccionL__ter {
-    background-image: url(/imagenes/contacto3.jpg);
+    background-image: url(../imagenes/contacto3.jpg);
     background-position: 6%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ body {
     padding: 10px;
     text-decoration: underline; }
   .seccionL__pri {
-    background-image: url(/imagenes/bar2.jpg);
+    background-image: url(../imagenes/bar2.jpg);
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -348,7 +348,7 @@ body {
     box-shadow: 5px 3px 10px black;
     font-family: Arial Helvetica sans-serif; }
   .seccionL__seg {
-    background-image: url(/imagenes/nosotros.jpg);
+    background-image: url(../imagenes/nosotros.jpg);
     background-position: 35%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -364,7 +364,7 @@ body {
     box-shadow: 5px 3px 10px black;
     font-family: Arial Helvetica sans-serif; }
   .seccionL__ter {
-    background-image: url(/imagenes/contacto3.jpg);
+    background-image: url(../imagenes/contacto3.jpg);
     background-position: 6%;
     background-size: cover;
     background-repeat: no-repeat;

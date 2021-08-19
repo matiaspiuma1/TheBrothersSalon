@@ -491,19 +491,19 @@ body {
     }
 
     .seccionL__pri {
-        background-image: url(imagenes/bar2.jpg);
+        background-image: url(../imagenes/bar2.jpg);
         background-position: 100%;
         @include secciones(cover, no-repeat, white, 1px 1px 1px 2px black, center, 15px, 15px, column, center, 30px, 35px, 5px 3px 10px black, Arial Helvetica sans-serif);
     }
 
     .seccionL__seg {
-        background-image: url(imagenes/nosotros.jpg);
+        background-image: url(../imagenes/nosotros.jpg);
         background-position: 35%;
         @include secciones(cover, no-repeat, white, 1px 1px 1px 2px black, center, 15px, 15px, column, center, 30px, 35px, 5px 3px 10px black, Arial Helvetica sans-serif);
     }
 
     .seccionL__ter {
-        background-image: url(imagenes/contacto3.jpg);
+        background-image: url(../imagenes/contacto3.jpg);
         background-position: 6%;
         @include secciones(cover, no-repeat, white, 1px 1px 1px 2px black, center, 15px, 15px, column, center, 30px, 35px, 5px 3px 10px black, Arial Helvetica sans-serif);
     }

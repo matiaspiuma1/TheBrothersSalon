@@ -33,6 +33,7 @@ body {
 
     #listasUnicas a{
         color: black;
+        padding: 10px;
     }
 
     .seccionp__titulo {
@@ -205,7 +206,7 @@ body {
 
     nav .container-fluid {
         padding: 20px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .bg-dark {
@@ -384,11 +385,9 @@ body {
         margin: 0;
     }
 
-    //SASS OPERACIONES
-
     nav .container-fluid a {
         padding: 25px;
-        font-size: 15px*2 - 5px;
+        font-size: 25px;
     }
 
     .bg-dark {
@@ -471,8 +470,6 @@ body {
         padding: 10px;
         text-decoration: underline;
     }
-
-    //SASS OPERACIONES
 
     @mixin secciones($bsz, $brt, $color, $txts, $txta, $pr, $pl, $fdir, $jusc, $bordeR, $tam, $sombra, $letra) {
         background-size: $bsz;

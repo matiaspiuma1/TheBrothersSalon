@@ -8,7 +8,7 @@
     <meta name="description" content="Todos los servicios y estilos que brindamos en The Brothers Salón Masculino">
     <meta name="keywords" content="servicios, estilos, precios, bebidas, brothers, peluqueros">
     <title>Servicios | The Brothers Salón</title>
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
-    
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
@@ -55,28 +54,55 @@
             <h1 class="Servicios__nues">Nuestros Servicios</h1>
             <p class="parrafosPrincipales">Brindamos los mejores cortes con los peluqueros mas prestigiosos de la zona.
             </p>
-            <table border="4">
-                <tr>
-                    <th class="tituloTabla">Cortes</th>
-                    <th class="tituloTabla">Precios</th>
-                </tr>
-                <tr>
-                    <td class="cortesTabla">Degradado</td>
-                    <td class="preciosTabla">350$</td>
-                </tr>
-                <tr>
-                    <td class="cortesTabla">Clasico</td>
-                    <td class="preciosTabla">400$</td>
-                </tr>
-                <tr>
-                    <td class="cortesTabla">Fade</td>
-                    <td class="preciosTabla">450$</td>
-                </tr>
-                <tr>
-                    <td class="cortesTabla">123</td>
-                    <td class="preciosTabla">500$</td>
-                </tr>
-            </table>
+            <div class="tablaServicios">
+                <section id="cortes">
+                    <p class="tituloTabla">Cortes</p>
+                    <div class="lista__cortes">
+                        <p>Fade</p>
+                        <p>Degradado</p>
+                        <p>Clásico</p>
+                        <p>Filos #1, #2, #3</p>
+                        <p>Perfilado de Cejas</p>
+                        <p>Barba</p>
+                    </div>
+                </section>
+                <section id="precios">
+                    <p class="tituloTabla">Precios</p>
+                    <div class="lista__precios">
+                        <p>$450</p>
+                        <p>$350</p>
+                        <p>$500</p>
+                        <p>$400</p>
+                        <p>$30</p>
+                        <p>$50</p>
+                    </div>
+                </section>
+            </div>
+            <p class="parrafosPrincipales">Tambien tenemos distintos tipos de bebidas para que tu espera sea mas agradable!
+            <div class="tablaServicios">
+                <section id="bebidas">
+                    <p class="tituloTabla">Bebidas</p>
+                    <div class="lista__bebidas">
+                        <p>Coca-Cola (500ml)</p>
+                        <p>Cerveza (Lata)</p>
+                        <p>Speed (250ml)</p>
+                        <p>Monster Energy</p>
+                        <p>Café (Vasito)</p>
+                        <p>Jugo</p>
+                    </div>
+                </section>
+                <section id="precios">
+                    <p class="tituloTabla">Precios</p>
+                    <div class="lista__precios">
+                        <p>$80</p>
+                        <p>$150</p>
+                        <p>$70</p>
+                        <p>$125</p>
+                        <p>$50</p>
+                        <p>$30</p>
+                    </div>
+                </section>
+            </div>
         </div>
 
         <!-- Footer -->
@@ -94,21 +120,19 @@
                 <h4 class="footer__redes">Redes Sociales</h4>
                 <div class="socialMedia">
                     <ul>
-                        <li><a href="https://www.instagram.com/thebrotherssalonmasculino2/"><img src="iconos/instagram.png" alt="Enlace Instagram"></a></li>
-                        <li><a href="api.whatsapp.com/send?phone=5491162212978"><img src="iconos/whatsapp.png" alt="Chat Whatsapp"></a></li>
+                        <li><a href="https://www.instagram.com/thebrotherssalonmasculino2/"><img
+                                    src="iconos/instagram.png" alt="Enlace Instagram"></a></li>
+                        <li><a href="api.whatsapp.com/send?phone=5491162212978"><img src="iconos/whatsapp.png"
+                                    alt="Chat Whatsapp"></a></li>
                     </ul>
                 </div>
             </div>
         </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

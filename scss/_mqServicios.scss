@@ -1,5 +1,224 @@
-//SASS OPERACIONES
-.Servicios{
-    min-height: calc(100vh - 298px);
+// Variables
+$fondoBody: #232931;
+$colorTitulos: #E79E4F;
+
+
+/* Telefonos */
+
+@media (max-width: 425px) {
+    .Servicios__nues {
+        text-align: center;
+        font-size: 35px;
+        color: $colorTitulos;
+        padding: 10px;
+    }
+
+    .parrafosPrincipales {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .tablaServicios {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "cortes precios";
+        background-color: rgb(28, 28, 31);
+        margin: 20px;
+        border-right: 1px solid #4ECCA3;
+        border-left: 1px solid #4ECCA3;
+        border-top: 1px solid #4ECCA3;
+    }
+
+    section#cortes {
+        grid-area: "cortes";
+    }
+
+    section#precios {
+        grid-area: "precios";
+    }
+
+    .tituloTabla {
+        color: $colorTitulos;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista__precios,
+    .lista__cortes,
+    .lista__bebidas {
+        color: white;
+        text-align: center;
+    }
+
+    #cortes p {
+        border-bottom: 1px solid #4ECCA3;
+        border-right: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #precios p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #bebidas p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+        border-right: 1px solid #4ECCA3;
+    }
+
+    .Servicios {
+        min-height: calc(100vh - 239px);
+    }
 }
 
+/* Tablet */
+
+
+@media (max-width: 1024px) and (min-width: 426px) {
+    .Servicios__nues {
+        text-align: center;
+        font-size: 45px;
+        color: $colorTitulos;
+        padding: 10px;
+    }
+
+    .parrafosPrincipales {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .tablaServicios {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "cortes precios";
+        background-color: rgb(28, 28, 31);
+        margin: 20px;
+        border-right: 1px solid #4ECCA3;
+        border-left: 1px solid #4ECCA3;
+        border-top: 1px solid #4ECCA3;
+    }
+
+    
+    section#cortes {
+        grid-area: "cortes";
+    }
+
+    section#precios {
+        grid-area: "precios";
+    }
+
+    .tituloTabla {
+        color: $colorTitulos;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista__precios,
+    .lista__cortes,
+    .lista__bebidas {
+        color: white;
+        text-align: center;
+    }
+
+    #cortes p {
+        border-bottom: 1px solid #4ECCA3;
+        border-right: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #precios p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #bebidas p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+        border-right: 1px solid #4ECCA3;
+    }
+
+    .Servicios {
+        min-height: calc(100vh - 291px);
+    }
+}
+
+/* Computadoras */
+
+@media (min-width: 1025px) {
+    .Servicios__nues {
+        text-align: center;
+        font-size: 45px;
+        color: $colorTitulos;
+        padding: 15px;
+    }
+
+    .parrafosPrincipales {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .tablaServicios {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "cortes precios";
+        background-color: rgb(28, 28, 31);
+        margin: 20px;
+        border-right: 1px solid #4ECCA3;
+        border-left: 1px solid #4ECCA3;
+        border-top: 1px solid #4ECCA3;
+    }
+
+    
+    section#cortes {
+        grid-area: "cortes";
+    }
+
+    section#precios {
+        grid-area: "precios";
+    }
+
+    .tituloTabla {
+        color: $colorTitulos;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .lista__precios,
+    .lista__cortes,
+    .lista__bebidas {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #cortes p {
+        border-bottom: 1px solid #4ECCA3;
+        border-right: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #precios p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+    }
+
+    #bebidas p {
+        border-bottom: 1px solid #4ECCA3;
+        margin: 0;
+        border-right: 1px solid #4ECCA3;
+    }
+
+    .Servicios {
+        min-height: calc(100vh - 295px);
+    }
+}

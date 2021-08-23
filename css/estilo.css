@@ -114,7 +114,7 @@ body {
     border-radius: 30px;
     padding: 15px; }
   footer {
-    padding-top: 55px;
+    padding-top: 45px;
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: auto;
@@ -442,7 +442,7 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif; }
   footer {
-    padding-top: 55px;
+    padding-top: 40px;
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: auto;
@@ -815,5 +815,99 @@ body {
   #imagen6 {
     grid-area: "imagen6"; } }
 
-.formulario_contacto {
-  min-height: calc(100vh - 298px); }
+/* Telefonos */
+@media (max-width: 425px) {
+  #contacto {
+    min-height: calc(100vh - 234px); }
+  #contacto__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #27303a; }
+  .contacto__campo p {
+    margin: 0;
+    color: #E79E4F;
+    font-size: 20px; }
+  .contacto__campo label {
+    display: block;
+    padding: 8px;
+    padding-left: 0;
+    padding-top: 25px; }
+  input[type=text] {
+    padding: 5px;
+    width: 100%; }
+  input[type=email] {
+    padding: 5px;
+    width: 100%; }
+  input[type=submit] {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px; } }
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 426px) {
+  #contacto__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #27303a; }
+  .contacto__campo p {
+    margin: 0;
+    color: #E79E4F;
+    font-size: 20px; }
+  .contacto__campo label {
+    display: block;
+    padding: 8px;
+    padding-left: 0;
+    padding-top: 25px; }
+  input[type=text] {
+    padding: 5px;
+    width: 100%; }
+  input[type=email] {
+    padding: 5px;
+    width: 100%; }
+  input[type=submit] {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px; } }
+
+/* Computadoras */
+@media (min-width: 1025px) {
+  #contacto {
+    min-height: calc(100vh - 323px); }
+  #contacto__form {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    background-color: #27303a;
+    box-shadow: 3px 3px 14px 0px black; }
+  .contacto__campo p {
+    margin: 0;
+    color: #E79E4F;
+    font-size: 20px; }
+  .contacto__campo label {
+    display: block;
+    padding: 8px;
+    padding-left: 0;
+    padding-top: 25px; }
+  input[type=text] {
+    padding: 5px;
+    width: 100%; }
+  input[type=email] {
+    padding: 5px;
+    width: 100%; }
+  input[type=submit] {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px; } }

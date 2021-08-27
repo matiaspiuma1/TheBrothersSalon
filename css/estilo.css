@@ -20,7 +20,8 @@ body {
     background: linear-gradient(90deg, rgba(186, 144, 35, 0.695116) 6%, #e9ab23 75%); }
   #listasUnicas a {
     color: black;
-    padding: 10px; }
+    padding: 10px;
+    border: 1px black solid; }
   .seccionp__titulo {
     padding-top: 10px;
     text-align: center;
@@ -135,7 +136,10 @@ body {
   .footer__sucursales {
     color: white; }
   .footer__redes {
-    color: white; } }
+    color: white; }
+  .navbar-toggler {
+    margin-right: 2px;
+    border: none; } }
 
 /* Tablet */
 @media (max-width: 1024px) and (min-width: 426px) {
@@ -267,7 +271,10 @@ body {
   .footer__sucursales {
     color: white; }
   .footer__redes {
-    color: white; } }
+    color: white; }
+  .navbar-toggler {
+    margin-right: 2px;
+    border: none; } }
 
 /* Computadoras */
 @media (min-width: 1025px) {
@@ -826,7 +833,8 @@ body {
     margin-right: 5%;
     margin-top: 10px;
     padding: 20px;
-    background-color: #27303a; }
+    background-color: #27303a;
+    box-shadow: 3px 3px 14px 0px black; }
   .contacto__campo p {
     margin: 0;
     color: #E79E4F;
@@ -857,7 +865,8 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 20px;
-    background-color: #27303a; }
+    background-color: #27303a;
+    box-shadow: 3px 3px 14px 0px black; }
   .contacto__campo p {
     margin: 0;
     color: #E79E4F;

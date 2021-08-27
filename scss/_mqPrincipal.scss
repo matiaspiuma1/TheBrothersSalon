@@ -34,6 +34,7 @@ body {
     #listasUnicas a{
         color: black;
         padding: 10px;
+        border: 1px black solid;
     }
 
     .seccionp__titulo {
@@ -193,6 +194,10 @@ body {
         color: white;
     }
 
+    .navbar-toggler {
+        margin-right: 2px;
+        border: none;
+    }
 }
 
 /* Tablet */
@@ -374,6 +379,11 @@ body {
 
     .footer__redes {
         color: white;
+    }
+
+    .navbar-toggler {
+        margin-right: 2px;
+        border: none;
     }
 }
 

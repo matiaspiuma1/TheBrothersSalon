@@ -1,6 +1,19 @@
+//Variables
 $colorTitulos: #E79E4F;
 $colorFondoC: #27303a;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: $fondoBody;
+}
+
+//Mapeo de lados
 @mixin lados($margin-left, $margin-right) {
     margin-left: $margin-left;
     margin-right: $margin-right;
@@ -9,10 +22,13 @@ $colorFondoC: #27303a;
 /* Telefonos */
 
 @media (max-width: 425px) {
+
+    //Footer Siempre abajo
     #contacto {
-        min-height: calc(100vh - 234px);
+        min-height: calc(100vh - 240px);
     }
 
+    //Formulario
     #contacto__form {
         display: flex;
         flex-direction: column;
@@ -23,6 +39,7 @@ $colorFondoC: #27303a;
         box-shadow: 3px 3px 14px 0px black;
     }
 
+    //Campo de Contacto
     .contacto__campo {
         p {
             margin: 0;
@@ -38,17 +55,19 @@ $colorFondoC: #27303a;
         }
     }
 
+    //Input Texto
     input[type=text] {
         padding: 5px;
         width: 100%;
     }
 
+    //Input mail
     input[type=email] {
         padding: 5px;
         width: 100%;
-
     }
 
+    //Input enviar
     input[type=submit] {
         width: 70px;
         margin-top: 30px;
@@ -60,6 +79,8 @@ $colorFondoC: #27303a;
 /* Tablet */
 
 @media (max-width: 1024px) and (min-width: 426px) {
+
+    //Formulario
     #contacto__form {
         display: flex;
         flex-direction: column;
@@ -71,6 +92,7 @@ $colorFondoC: #27303a;
         box-shadow: 3px 3px 14px 0px black;
     }
 
+    //Campo de Contacto
     .contacto__campo {
         p {
             margin: 0;
@@ -86,17 +108,19 @@ $colorFondoC: #27303a;
         }
     }
 
+    //Input Texto
     input[type=text] {
         padding: 5px;
         width: 100%;
     }
 
+    //Input mail
     input[type=email] {
         padding: 5px;
         width: 100%;
-
     }
 
+    //Input enviar
     input[type=submit] {
         width: 70px;
         margin-top: 30px;
@@ -107,10 +131,13 @@ $colorFondoC: #27303a;
 /* Computadoras */
 
 @media (min-width: 1025px) {
+
+    //Footer siempre abajo
     #contacto {
-        min-height: calc(100vh - 323px);
+        min-height: calc(100vh - 313px);
     }
 
+    //Formulario
     #contacto__form {
         display: flex;
         margin-top: 25px;
@@ -122,6 +149,7 @@ $colorFondoC: #27303a;
         box-shadow: 3px 3px 14px 0px black;
     }
 
+    //Campo de contacto
     .contacto__campo {
         p {
             margin: 0;
@@ -137,17 +165,19 @@ $colorFondoC: #27303a;
         }
     }
 
+    //Input texto
     input[type=text] {
         padding: 5px;
         width: 100%;
     }
 
+    //Input mail
     input[type=email] {
         padding: 5px;
         width: 100%;
-
     }
 
+    //Input enviar
     input[type=submit] {
         width: 70px;
         margin-top: 30px;

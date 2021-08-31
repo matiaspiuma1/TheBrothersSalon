@@ -1,11 +1,24 @@
 // Variables
 $fondoBody: #232931;
 $colorTitulos: #E79E4F;
+$bordesTablas: #4ECCA3;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: $fondoBody;
+}
 
 /* Telefonos */
 
 @media (max-width: 425px) {
+
+    //Titulo
     .Servicios__nues {
         text-align: center;
         font-size: 35px;
@@ -13,6 +26,8 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+
+    //Subtitulos
     .parrafosPrincipales {
         color: white;
         font-size: 18px;
@@ -20,6 +35,7 @@ $colorTitulos: #E79E4F;
         padding: 5px;
     }
 
+    //Tablas
     .tablaServicios {
         display: grid;
         grid-template-columns: 2fr 2fr;
@@ -27,9 +43,9 @@ $colorTitulos: #E79E4F;
         grid-template-areas: "cortes precios";
         background-color: rgb(28, 28, 31);
         margin: 20px;
-        border-right: 1px solid #4ECCA3;
-        border-left: 1px solid #4ECCA3;
-        border-top: 1px solid #4ECCA3;
+        border-right: 1px solid $bordesTablas;
+        border-left: 1px solid $bordesTablas;
+        border-top: 1px solid $bordesTablas;
     }
 
     section#cortes {
@@ -53,25 +69,27 @@ $colorTitulos: #E79E4F;
         text-align: center;
     }
 
+    //Tipos de cortes
     #cortes p {
-        border-bottom: 1px solid #4ECCA3;
-        border-right: 1px solid #4ECCA3;
+        padding: 10px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Precios
     #precios p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 10px;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Tipos de bebidas
     #bebidas p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 10px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
-        border-right: 1px solid #4ECCA3;
-    }
-
-    .Servicios {
-        min-height: calc(100vh - 239px);
     }
 }
 
@@ -79,6 +97,8 @@ $colorTitulos: #E79E4F;
 
 
 @media (max-width: 1024px) and (min-width: 426px) {
+
+    //Titulo
     .Servicios__nues {
         text-align: center;
         font-size: 45px;
@@ -86,6 +106,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Subtitulo
     .parrafosPrincipales {
         color: white;
         font-size: 22px;
@@ -93,19 +114,19 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Tablas
     .tablaServicios {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr;
         grid-template-areas: "cortes precios";
         background-color: rgb(28, 28, 31);
-        margin: 20px;
-        border-right: 1px solid #4ECCA3;
-        border-left: 1px solid #4ECCA3;
-        border-top: 1px solid #4ECCA3;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 45px;
+        border: 1px solid $bordesTablas;
     }
 
-    
     section#cortes {
         grid-area: "cortes";
     }
@@ -116,7 +137,7 @@ $colorTitulos: #E79E4F;
 
     .tituloTabla {
         color: $colorTitulos;
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -127,31 +148,35 @@ $colorTitulos: #E79E4F;
         text-align: center;
     }
 
+    //Tipo de cortes
     #cortes p {
-        border-bottom: 1px solid #4ECCA3;
-        border-right: 1px solid #4ECCA3;
+        padding: 15px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Precios
     #precios p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 15px;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Tipo de bebidas
     #bebidas p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 15px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
-        border-right: 1px solid #4ECCA3;
-    }
-
-    .Servicios {
-        min-height: calc(100vh - 291px);
     }
 }
 
 /* Computadoras */
 
 @media (min-width: 1025px) {
+
+    //Titulo
     .Servicios__nues {
         text-align: center;
         font-size: 45px;
@@ -159,6 +184,7 @@ $colorTitulos: #E79E4F;
         padding: 15px;
     }
 
+    //Subtitulo
     .parrafosPrincipales {
         color: white;
         font-size: 25px;
@@ -166,19 +192,19 @@ $colorTitulos: #E79E4F;
         padding: 20px;
     }
 
+    //Tablas
     .tablaServicios {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr;
         grid-template-areas: "cortes precios";
         background-color: rgb(28, 28, 31);
-        margin: 20px;
-        border-right: 1px solid #4ECCA3;
-        border-left: 1px solid #4ECCA3;
-        border-top: 1px solid #4ECCA3;
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-bottom: 90px;
+        border: 1px solid $bordesTablas;
     }
 
-    
     section#cortes {
         grid-area: "cortes";
     }
@@ -191,6 +217,7 @@ $colorTitulos: #E79E4F;
         color: $colorTitulos;
         font-size: 30px;
         text-align: center;
+        border-bottom: 1px solid $bordesTablas;
     }
 
     .lista__precios,
@@ -201,23 +228,30 @@ $colorTitulos: #E79E4F;
         font-size: 20px;
     }
 
+    //Tipo de cortes
     #cortes p {
-        border-bottom: 1px solid #4ECCA3;
-        border-right: 1px solid #4ECCA3;
+        padding: 25px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Precios
     #precios p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 25px;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
     }
 
+    //Tipo de bebidas
     #bebidas p {
-        border-bottom: 1px solid #4ECCA3;
+        padding: 25px;
+        border-right: 1px solid $bordesTablas;
+        border-bottom: 1px solid $bordesTablas;
         margin: 0;
-        border-right: 1px solid #4ECCA3;
     }
 
+    //Footer siempre abajo
     .Servicios {
         min-height: calc(100vh - 295px);
     }

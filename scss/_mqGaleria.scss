@@ -1,10 +1,24 @@
 // Variables
 $fondoBody: #232931;
 $colorTitulos: #E79E4F;
+$bordesTablas: #4ECCA3;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: $fondoBody;
+}
 
 /* Telefonos */
 
 @media (max-width: 425px) {
+
+    //Titulo
     .galeria2__titulo {
         text-align: center;
         color: $colorTitulos;
@@ -12,6 +26,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Subtitulo
     .parrafosPrincipales {
         color: white;
         font-size: 18px;
@@ -19,6 +34,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Texto Informativo
     .galeria__texto {
         color: #4ECCA3;
         font-size: 18px;
@@ -26,21 +42,22 @@ $colorTitulos: #E79E4F;
         padding-bottom: 20px;
     }
 
+    //Imagenes
     .seccion__Galeria {
         display: grid;
         grid-template-columns: 2fr;
         grid-template-rows: auto;
         grid-template-areas: "imagen1"
-        "imagen2"
-        "imagen3"
-        "imagen4"
-        "imagen5"
-        "imagen6";
+            "imagen2"
+            "imagen3"
+            "imagen4"
+            "imagen5"
+            "imagen6";
         padding: 15px;
         gap: 25px;
     }
 
-    .seccion__Galeria img{
+    .seccion__Galeria img {
         border-radius: 30px;
     }
 }
@@ -49,6 +66,8 @@ $colorTitulos: #E79E4F;
 
 
 @media (max-width: 1024px) and (min-width: 426px) {
+
+    //Titulo
     .galeria2__titulo {
         text-align: center;
         color: $colorTitulos;
@@ -56,6 +75,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Subtitulo
     .parrafosPrincipales {
         color: white;
         font-size: 30px;
@@ -63,6 +83,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Texto Informativo
     .galeria__texto {
         color: #4ECCA3;
         font-size: 25px;
@@ -70,21 +91,22 @@ $colorTitulos: #E79E4F;
         padding-bottom: 20px;
     }
 
+    //Imagenes
     .seccion__Galeria {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
         grid-template-areas: "imagen1"
-        "imagen2"
-        "imagen3"
-        "imagen4"
-        "imagen5"
-        "imagen6";
+            "imagen2"
+            "imagen3"
+            "imagen4"
+            "imagen5"
+            "imagen6";
         padding: 15px;
         gap: 25px;
     }
 
-    .seccion__Galeria img{
+    .seccion__Galeria img {
         border-radius: 30px;
         display: block;
         margin: auto;
@@ -94,6 +116,8 @@ $colorTitulos: #E79E4F;
 /* Computadoras */
 
 @media (min-width: 1025px) {
+
+    //Titulo
     .galeria2__titulo {
         text-align: center;
         color: $colorTitulos;
@@ -101,6 +125,7 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Subtitulo
     .parrafosPrincipales {
         color: white;
         font-size: 30px;
@@ -108,8 +133,9 @@ $colorTitulos: #E79E4F;
         padding: 10px;
     }
 
+    //Texto Informativo
     .galeria__texto {
-        color: #4ECCA3;
+        color: $bordesTablas;
         font-size: 25px;
         text-align: center;
         padding-bottom: 20px;
@@ -120,12 +146,14 @@ $colorTitulos: #E79E4F;
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: auto;
         grid-template-areas: "imagen1 imagen2 imagen3"
-                            "imagen4 imagen5 imagen6";
+            "imagen4 imagen5 imagen6";
         padding: 15px;
         gap: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
     }
 
-    .seccion__Galeria img{
+    .seccion__Galeria img {
         border-radius: 30px;
     }
 

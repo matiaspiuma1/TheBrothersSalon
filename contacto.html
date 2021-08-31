@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
     <meta name="description"
         content="Formulario de contacto para que puedas explicarnos como queres tu corte y para darte un turno">
     <meta name="keywords" content="turno, formulario, contacto, sucursal, información, nombre, apellido, telefono">
@@ -32,7 +34,7 @@
 <body>
 
     <!-- Navbar -->
-    <div class="container-fluid">
+    <div class="topnav">
         <nav class="navbar navbar-expand-sm navbar-light bg-dark">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">TBS</a>
@@ -41,90 +43,97 @@
                 </button>
                 <div id="listasUnicas" class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto listaUnicas">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="topnav__inicio nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="topnav__nosotros nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="topnav__servicios nav-item"><a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="topnav__galeria nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="topnav__contacto nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </div>
 
-        <!-- Formulario -->
-        <div data-aos="flip-left" id="contacto">
-            <div id="contacto__form">
-                <div class="contacto__campo">
-                    <p>Formulario de contacto:</p>
-                    <label>
-                        <p>Nombre:</p>
-                    </label>
-                    <input type="text" placeholder="Nombre" />
-                </div>
-
-                <div class="contacto__campo">
-                    <label>
-                        <p>Apellido:</p>
-                    </label>
-                    <input type="text" placeholder="Apellido" />
-                </div>
-
-                <div class="contacto__campo">
-                    <label>
-                        <p>Mail:</p>
-                    </label>
-                    <input type="email" placeholder="usuario@mail.com">
-                </div>
-
-                <div class="contacto__campo">
-                    <label>
-                        <p>Corte para consultar:</p>
-                    </label>
-                    <select>
-                        <option value="1">Fade</option>
-                        <option value="2">Degradado</option>
-                        <option value="3">Clásico</option>
-                        <option value="4">Filos #1, #2, #3</option>
-                        <option value="4">Perfilado de Cejas</option>
-                        <option value="4">Barba</option>
-                    </select>
-                </div>
-
-                <div class="contacto__campo">
-                    <label>
-                        <p>Comentario:</p>
-                    </label>
-                    <input type="text" />
-                </div>
-                <input type="submit" value="Enviar" />
+    <!-- Formulario -->
+    <div data-aos="flip-left" id="contacto">
+        <div id="contacto__form">
+            <div class="contacto__campo">
+                <p>Formulario de contacto:</p>
+                <label>
+                    <p>Nombre:</p>
+                </label>
+                <input type="text" placeholder="Nombre" />
             </div>
+
+            <div class="contacto__campo">
+                <label>
+                    <p>Apellido:</p>
+                </label>
+                <input type="text" placeholder="Apellido" />
+            </div>
+
+            <div class="contacto__campo">
+                <label>
+                    <p>Mail:</p>
+                </label>
+                <input type="email" placeholder="usuario@mail.com">
+            </div>
+
+            <div class="contacto__campo">
+                <label>
+                    <p>Corte para consultar:</p>
+                </label>
+                <select>
+                    <option value="1">Fade</option>
+                    <option value="2">Degradado</option>
+                    <option value="3">Clásico</option>
+                    <option value="4">Filos #1, #2, #3</option>
+                    <option value="4">Perfilado de Cejas</option>
+                    <option value="4">Barba</option>
+                </select>
+            </div>
+
+            <div class="contacto__campo">
+                <label>
+                    <p>Comentario:</p>
+                </label>
+                <input type="text" />
+            </div>
+            <input type="submit" value="Enviar" />
         </div>
+    </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <div id="redes1">
-            <h4 class="footer__sucursales">Sucursales</h4>
-            <div class="ubicacionSucursales">
-                <ul>
-                    <li><a href="https://goo.gl/maps/7cyUPjkAZZ187LFL7">Atalaya</a></li>
-                    <li><a href="https://goo.gl/maps/HuK4BSeFF7bXRQWr9">Isidro Casanova</a></li>
-                </ul>
+    <div>
+        <footer>
+            <div id="redes1">
+                <h4 class="footer__sucursales">Sucursales</h4>
+                <div class="ubicacionSucursales">
+                    <ul>
+                        <li><a href="https://goo.gl/maps/7cyUPjkAZZ187LFL7">Atalaya</a></li>
+                        <li><a href="https://goo.gl/maps/HuK4BSeFF7bXRQWr9">Isidro Casanova</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div id="redes2">
-            <h4 class="footer__redes">Redes Sociales</h4>
-            <div class="socialMedia">
-                <ul>
-                    <li><a href="https://www.instagram.com/thebrotherssalonmasculino2/"><img src="iconos/instagram.png"
-                                alt="Enlace Instagram"></a></li>
-                    <li><a href="api.whatsapp.com/send?phone=5491162212978"><img src="iconos/whatsapp.png"
-                                alt="Chat Whatsapp"></a></li>
-                </ul>
+            <div id="redes2">
+                <h4 class="footer__redes">Redes Sociales</h4>
+                <div class="socialMedia">
+                    <ul>
+                        <li><a href="https://www.instagram.com/thebrotherssalonmasculino2/"><img
+                                    src="iconos/instagram.png" alt="Enlace Instagram"></a></li>
+                        <li><a href="api.whatsapp.com/send?phone=5491162212978"><img src="iconos/whatsapp.png"
+                                    alt="Chat Whatsapp"></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
 
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>

@@ -233,6 +233,10 @@ body {
         color: black;
     }
 
+    .navbar-brand img, svg{
+        width: 40px;
+    }
+
     //Titulo
     .seccionp__titulo {
         padding-top: 10px;
@@ -442,6 +446,10 @@ body {
     .listaUnicas li a:hover {
         background: rgb(167, 129, 81);
         border-radius: 10px;
+    }
+
+    .navbar-brand img, svg{
+        width: 45px;
     }
 
     //Titulo

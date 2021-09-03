@@ -154,6 +154,8 @@ body {
     background: linear-gradient(90deg, rgba(186, 144, 35, 0.695116) 6%, #e9ab23 75%); }
   #listasUnicas a {
     color: black; }
+  .navbar-brand img, svg {
+    width: 40px; }
   .seccionp__titulo {
     padding-top: 10px;
     text-align: center;
@@ -300,6 +302,8 @@ body {
   .listaUnicas li a:hover {
     background: #a78151;
     border-radius: 10px; }
+  .navbar-brand img, svg {
+    width: 45px; }
   .seccionp__titulo {
     padding-top: 35px;
     text-align: center;
